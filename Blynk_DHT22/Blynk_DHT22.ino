@@ -42,7 +42,7 @@ void sendSensor(){
 
 
   if(t > 30){
-   // Blynk.email("shameer50@gmail.com", "Alert", "Temperature over 28C!");
+   // Blynk.email("myemail@gmail.com", "Alert", "Temperature over 28C!");
     Blynk.logEvent("temp_alert","Temp above 30 degree");
   }
 }
