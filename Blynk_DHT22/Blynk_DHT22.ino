@@ -20,7 +20,7 @@ char ssid[] = "your wifi ssid";  // type your wifi name
 char pass[] = "your wifi password";  // type your wifi password
 
 #define DHTPIN 4          // Mention the digital pin where you connected 
-#define DHTTYPE DHT22     // DHT 11  
+#define DHTTYPE DHT22     // DHT 22 
 DHT dht(DHTPIN, DHTTYPE);
 BlynkTimer timer;
 
