@@ -30,3 +30,7 @@ Thanks to the answer of [Codebreaker007](https://stackoverflow.com/users/1024558
 If there is still a problem use a 10K (or so) pull-down resistor between RX0 and GND (test on breadboard before soldering)
 Pressing and holding (!) the boot-button while uploading on some "bad" boards
 Happened with a "normal" ESP32 board to me - just to be sure - I got an ESP8266 in an ESP32 packaging. Configuring for the ESP8266 solved the issue of uploading.
+
+
+Thanks to [techiesms](https://www.youtube.com/watch?v=ukWvHX-JTgI)
+I can find a walk around to make a https server to stream the video.
